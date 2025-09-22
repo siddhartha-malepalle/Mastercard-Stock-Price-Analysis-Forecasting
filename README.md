@@ -25,7 +25,7 @@ The goal is to predict whether the stock will go **UP or DOWN the next day**, an
 ### 3. Baseline Modeling  
 - ✅ **Linear Regression** → tested continuous price prediction.  
 - ✅ **Random Forest Regressor** → slightly better, but unstable.  
-- 📏 Metrics: **R², MAE** (~60% classification equivalent, not reliable).  
+- 📏 Metrics: **R², MAE** (~57% classification equivalent, not reliable).  
 
 ### 4. Advanced Modeling with LightGBM  
 - Reformulated as a **binary classification problem** (1 = UP, 0 = DOWN).  
